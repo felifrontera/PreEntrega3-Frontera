@@ -1,0 +1,184 @@
+.contacttto {
+  max-width: 600px;
+  margin: auto;
+  padding: 20px;
+  padding-bottom: 130px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #333;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.miboton {
+  background-color: white;
+  color: black;
+  border-radius: 5px;
+  width: 100%;
+  margin-top: 10px;
+}
+
+.miboton:hover {
+  background-color: black;
+  color: white;
+  transition: 0.5s;
+}
+
+.fh1p {
+  text-align: center;
+}
+
+.estapagina-fs-sec {
+  text-align: center;
+}
+
+.estapagina-sec-section {
+  text-align: center;
+}
+
+.estapagina-fs-sec {
+  display: flex;
+  flex-direction: row;
+}
+
+.image-second-section-esta-pag {
+  margin-bottom: 100px;
+  padding-left: 40px;
+}
+
+.estapagina-sec-section {
+  display: flex;
+}
+
+footer {
+  height: 100px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  box-sizing: border-box;
+}
+
+header {
+  background-color: white;
+  height: 116px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-item {
+  padding-left: 15px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.navbar-nav {
+  background-color: white;
+}
+
+.logo {
+  width: 70px;
+  height: 100px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-left: 70px;
+  cursor: pointer;
+  margin-right: 100px;
+}
+
+.paginas {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  line-height: 100px;
+  font-size: 17px;
+  padding-right: 30px;
+}
+
+.paginas:hover {
+  opacity: 0.7;
+}
+
+main {
+  background-color: black;
+  padding-top: 100px;
+  color: white;
+}
+
+.foto1 {
+  margin-bottom: 150px;
+}
+
+.foto2 {
+  margin-bottom: 110px;
+}
+
+.container-fluid {
+  background-color: white;
+}
+
+@media (max-width: 768px) {
+  .name {
+    text-align: center;
+  }
+  .pqcontratarme-img {
+    text-align: center;
+  }
+}
+.img-sec-section-sobremi {
+  margin-bottom: 60px;
+}
+
+.formacion {
+  display: flex;
+}
+
+.fotitopiola {
+  margin-bottom: 100px;
+}
+
+.formacion-h1 {
+  margin-top: 50px;
+}
+
+.mihistoria__section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.mihistoria__h1yp {
+  text-align: center;
+}
+
+/*# sourceMappingURL=styles.css.map */

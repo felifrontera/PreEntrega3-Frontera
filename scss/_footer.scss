@@ -1,0 +1,14 @@
+$flexible: flex;
+$color-primario: white;
+$color-secundario: black;
+$centrado: center;
+$px: 100px;
+
+
+footer{
+    height: $px;
+    display: $flexible;
+    flex-direction: row;
+    align-items: $centrado;
+    justify-content: $centrado;
+}

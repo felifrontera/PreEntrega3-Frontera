@@ -1,0 +1,18 @@
+$flexible: flex;
+$color-primario: white;
+$color-secundario: black;
+$centrado: center;
+$px: 100px;
+
+
+@media (max-width: 768px){
+    .name{
+        text-align: $centrado;
+    }
+    
+    .pqcontratarme-img{
+        text-align: $centrado;
+    }
+
+    
+}

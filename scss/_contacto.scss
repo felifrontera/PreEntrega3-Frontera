@@ -1,0 +1,66 @@
+$flexible: flex;
+$color-primario: white;
+$color-secundario: black;
+$centrado: center;
+$px: 100px;
+
+
+
+
+// MIXIN
+@mixin mi-mixin($estilo) {
+  max-width: 600px;
+  margin: auto;
+  padding: 20px;
+  padding-bottom: 130px;
+  border-radius: 5px;
+  text-align: $centrado;
+}
+ 
+
+
+.contacttto {
+    @include mi-mixin
+  }
+  
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  input,
+  textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: $color-primario;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .miboton{
+    background-color: $color-primario;
+    color: $color-secundario;
+    border-radius: 5px;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.miboton:hover{
+    background-color: $color-secundario;
+    color: $color-primario;
+    transition: .5s;
+}

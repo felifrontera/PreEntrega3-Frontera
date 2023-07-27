@@ -1,0 +1,33 @@
+$flexible: flex;
+$color-primario: white;
+$color-secundario: black;
+$centrado: center;
+$px: 100px;
+
+
+.fh1p{
+    text-align: $centrado;
+}
+
+.estapagina-fs-sec{
+    text-align: $centrado;
+}
+
+.estapagina-sec-section{
+    text-align: $centrado;
+}
+
+
+.estapagina-fs-sec{
+    display: $flexible;
+    flex-direction: row;
+}
+
+.image-second-section-esta-pag{
+    margin-bottom: $px;
+    padding-left: 40px;
+}
+
+.estapagina-sec-section{
+    display: $flexible;
+}

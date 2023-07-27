@@ -1,0 +1,35 @@
+$flexible: flex;
+$color-primario: white;
+$color-secundario: black;
+$centrado: center;
+$px: 100px;
+
+
+
+.img-sec-section-sobremi{
+    margin-bottom: 60px;
+}
+
+.formacion{
+    display: $flexible;
+}
+
+.fotitopiola{
+    margin-bottom: $px;
+}
+
+.formacion-h1{
+    margin-top: 50px;
+}
+
+
+.mihistoria__section{
+    display: $flexible;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+.mihistoria__h1yp{
+    text-align: $centrado;
+}

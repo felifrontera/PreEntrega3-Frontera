@@ -1,0 +1,26 @@
+$flexible: flex;
+$color-primario: white;
+$color-secundario: black;
+$centrado: center;
+$px: 100px;
+
+
+main{
+    background-color: $color-secundario;
+    padding-top: $px;
+    color: $color-primario;
+}
+
+.foto1{
+    margin-bottom: 150px;
+    
+}
+
+.foto2{
+    margin-bottom: 110px;
+}
+
+
+.container-fluid{
+    background-color: $color-primario;
+}

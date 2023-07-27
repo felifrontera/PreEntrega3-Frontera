@@ -1,0 +1,212 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: white;
+    height: 116px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.logo{
+    width: 70px;
+    height: 100px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left: 70px;
+    cursor: pointer;
+    margin-right: 100px;
+}
+
+.paginas{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    line-height: 100px;
+    font-size: 17px;
+    padding-right: 30px;
+}
+
+.paginas:hover{
+    opacity: .7;
+}
+
+main{
+    background-color: black;
+    padding-top: 100px;
+    color: white;
+}
+
+.foto1{
+    margin-bottom: 150px;
+    transform: rotate(5deg) scale(1.2);
+}
+
+.foto2{
+    margin-bottom: 110px;
+    
+}
+
+
+
+.navbar-nav{
+    background-color: white;
+    
+}
+
+
+.nav-item{
+    padding-left: 15px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.container-fluid{
+    background-color: white;
+}
+
+footer{
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+@media (max-width: 768px){
+    .name{
+        text-align: center;
+    }
+    
+    .pqcontratarme-img{
+        text-align: center;
+    }
+
+    
+}
+
+.fs-sec-qofrezco{
+    margin-bottom: 100px;
+    text-align: center;
+}
+
+.sec-section-qofrezco{
+    padding-bottom: 100px;
+    text-align: center;
+}
+
+.mihistoria__section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.img-sec-section-sobremi{
+    margin-bottom: 60px;
+}
+
+.formacion{
+    display: flex;
+}
+
+.fotitopiola{
+    margin-bottom: 100px;
+}
+
+.formacion-h1{
+    margin-top: 50px;
+}
+
+  .contacttto {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    padding-bottom: 130px;
+    border-radius: 5px;
+    text-align: center;
+  }
+  
+  /* Estilos para el formulario de contacto */
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  input,
+  textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+.estapagina-fs-sec{
+    display: flex;
+    flex-direction: row;
+}
+
+.image-second-section-esta-pag{
+    margin-bottom: 100px;
+    padding-left: 40px;
+}
+
+.estapagina-sec-section{
+    display: flex;
+}
+
+.div__sec_section-queofrezco{
+    margin-bottom: 100px;
+}
+
+.third__h1yp{
+    margin-left: 50px;
+}
+
+.miboton{
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.miboton:hover{
+    background-color: black;
+    color: white;
+    transition: .5s;
+}
+
+.mihistoria__h1yp{
+    text-align: center;
+}
+
+.fh1p{
+    text-align: center;
+}
+
+.estapagina-fs-sec{
+    text-align: center;
+}
+
+.estapagina-sec-section{
+    text-align: center;
+}
